@@ -8,21 +8,25 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <stye>
-        body {
-        position: relative;
-        width: 1080px;
-        height: 750px;
+    <style>
+        .container{
+            width: 100%;
+            height: auto;
 
-        background: linear-gradient(180deg, #3AAAE9 19.27%, rgba(255, 255, 255, 0) 91.15%), #039C2E;
         }
-    </stye>
+        body
+        {
+            background: #33CA0D linear-gradient(180deg, #FFFFFF 28.13%, rgba(255, 255, 255, 0) 79.69%) no-repeat center center;
+        }
+
+    </style>
 
     <title>Home</title>
 </head>
+
 <body>
 <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
         <a class="navbar-brand" >Internet History</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -53,13 +57,19 @@
             </ul>
         </div>
     </nav>
-    <div class="jumbotron">
+
         <h1 class="display-4">History of the Internet</h1>
-        <p class="lead">This is a project for IS117</p>
-        <hr class="my-4">
-        <p>Click below to start learning about the history of the Internet</p>
+
         <a class="btn btn-primary btn-lg" href="invention.html" role="button">Learn more</a>
+
+    <div class="image">
+
+
+        <img src="home.png">
+
     </div>
+
+
 </div>
 
 <!-- Optional JavaScript -->
@@ -68,4 +78,5 @@
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
+
 </html>
